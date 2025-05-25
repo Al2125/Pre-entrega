@@ -339,6 +339,10 @@ main {
         }
     
     /* Monstruos */
+    .clase-monstruos {
+        display: flex;
+        justify-content: space-around;
+    }
     .terrestres {
         background-image: url("media/imagen/fondo\ terrestres.png");
         /*background: linear-gradient(90deg, #0c3610, #5a7724);  */
