@@ -386,7 +386,7 @@ main {
     }
     .terrestres {
         background-image: url("media/imagen/fondo\ terrestres.png");
-        /*background: linear-gradient(90deg, #0c3610, #5a7724);  */
+        
         
     }
     .marinos {
@@ -451,6 +451,7 @@ main {
         width: 60%;
         border-radius: 10px;
         gap: 1rem;
+        min-width: 200px;
         
     }
     .formulario fieldset {
@@ -469,10 +470,17 @@ main {
         border-radius: 8px;
         border: 1px solid #ccc;
         font-size: 0.8em;
+        width:95%
     }
     .formulario button {
         width: fit-content;
         font-size: 0.8em;
         background-color: rgba(139, 90, 33, 0.8);
         border: 1px solid #ccc;
+    }
+@media (max-width: 400px) {
+        .formulario{
+            width:100%;
+            padding: 0px
+        }
     }
